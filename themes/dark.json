@@ -316,10 +316,17 @@
       "scope": [
         "entity.name.tag.template.html.vue",
         "entity.name.tag.style.html.vue",
-        "entity.name.tag.script.html.vue"
+        "entity.name.tag.script.html.vue",
+        "punctuation.separator.key-value.html.vue"
       ],
       "settings": {
         "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#66d9ef"
       }
     }
   ],
