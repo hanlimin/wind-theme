@@ -1,11 +1,9 @@
-# Change Log
+### Change Log
 
-## [0.0.1] - 2022-05-19
+All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-### Added
+#### v0.0.1
 
--- Add workbench and some languages themes.
+> May 19, 2022
 
-## [0.0.2] - 2022-05-19
-
--- Add vue template @ and variable name highlighting.
+- feat: workbench and some languages themes.
