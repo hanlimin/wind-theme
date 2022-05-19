@@ -1,0 +1,35 @@
+{
+  "name": "wind-vscode-theme",
+  "displayName": "Wind Theme",
+  "description": "Wind theme for VS Code",
+  "publisher": "wind-theme",
+  "license": "MIT",
+  "version": "0.0.1",
+  "maintainers": [
+    "Limin Han <hanlimin5@gmail.com>"
+  ],
+  "scripts": {
+    "package": "vsce package -o ./build/wind-vscode-theme.vsix"
+  },
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes",
+    "Programming Languages"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wind Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "typescript": "^4.6.4",
+    "vsce": "^2.7.0"
+  }
+}
